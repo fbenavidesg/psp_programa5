@@ -22,6 +22,12 @@ public class App
     {
     	port(Integer.valueOf(System.getenv("PORT")));
         staticFileLocation("/public");
-    	get("/", (req, res) -> "Hello World");
+    	get("/", (req, res) -> {
+    		
+    		Map<String, Object> attributes = new HashMap<>();
+            attributes.put("resultRanges", "");
+            return new ModelAndView(attributes, "index.ftl");
+            
+    	},new FreeMarkerEngine());
     }
 }
