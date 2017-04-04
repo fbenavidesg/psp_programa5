@@ -25,7 +25,6 @@ public class App
     	get("/", (req, res) -> {
     		
     		Map<String, Object> attributes = new HashMap<>();
-            attributes.put("resultRanges", "");
             return new ModelAndView(attributes, "index.ftl");
             
     	},new FreeMarkerEngine());
