@@ -20,8 +20,7 @@ public class App
 {
 	/**
      * Metodo de entrada de la aplicacion implementa el motor de plantillas spart.
-     * @param args
-     * @throws IOException
+     * @param args parametros iniciales
      */
     public static void main( String[] args )
     {
