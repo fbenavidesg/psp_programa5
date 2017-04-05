@@ -2,7 +2,7 @@
 /* Programa ID: PSP_TAREA5                                                    */
 /* Autor: Fredy Benavides                                                     */
 /* Fecha: 04/03/2017                                                          */
-/* Descripcion: Programa integra usando regla simpson y distribución T        */
+/* Descripcion: Programa integra usando regla simpson y distribucion T        */
 /*                                                                            */
 /******************************************************************************/
 package edu.uniandes.ecos.simpson.app;
