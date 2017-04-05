@@ -16,6 +16,20 @@
     }
 </style>
 <body>
-    <h2>Hola que mas</h2>
+    <h2>Regla Simpson</h2>
+    <table>
+    	<tr>
+    		<th>f(x)</th>
+    		<th>dof</th>
+    		<th>Resultado Esperado</th>
+    		<th>Resultado Calculado</th>
+    	</tr>
+    	<tr>
+    		<td>${resultSimpson.getX()}</td>
+    		<td>${resultSimpson.getDof()}</td>
+    		<td>${resultSimpson.getResultExpected()?string("####.##########")}</td>
+    		<td>${resultSimpson.getResult()?string("####.##########")}</td>
+    	</tr>
+    </table>
 </body>
 </html>
